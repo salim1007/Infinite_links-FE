@@ -1,0 +1,269 @@
+.homepage {
+background: rgb(77, 77, 83);
+position: relative;
+margin-top: 200px;
+margin-left: 250px;
+margin-right: 250px;
+padding: 65px;
+text-align: center;
+margin-inline: 2px;
+border-radius: 10px;
+
+margin-top: 10px;
+top:2px;
+}
+
+
+
+.innerform{
+    display:flex;
+    justify-content: center;
+    background: rgb(137, 137, 147);
+    text-align:center;
+    margin-left: 50%;
+margin-right: 50%;
+}
+
+.loginform{
+
+    justify-content:center;
+    
+    border-radius: 15px; 
+    column-width: 30rem;
+    
+    
+}
+.h1{
+    text-align: center;
+    
+    font-size: 15px;
+}
+
+.h3{
+    background: rgb(77, 77, 83);
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.logo{
+position: relative;
+padding: 2px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+block-size: 200px;
+
+}
+
+
+.adminlogo{
+    position: relative;
+padding: 2px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+block-size: 120px;
+opacity: 0.5;
+}
+
+.button{
+    border-radius: 6px;
+    border-width: 1px;
+    background-color:rgb(119, 110, 128);
+}
+.labels{
+width:30%;
+float: left;
+}
+.inputs{
+    width: 90%;
+    float: center;
+}
+
+.regform{
+    background: rgb(137, 137, 147);
+    text-align: center;
+    display: block;
+    align-items:center;
+    border-radius: 15px;
+    padding:6px;
+    box-shadow:1px 1px 20px 1px;
+    
+    }   
+.logdiv{
+    text-align: center;
+    display: block;
+    align-items: center;
+    padding: 4px;
+    
+  
+}
+.loginputs{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.button{
+    padding: 5px;
+
+}
+.button:hover{
+    color: black;
+    background-color:white;
+}
+.muibtn{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+.backdrop{
+    position: fixed;
+  z-index: 1;
+  background-color: rgb(55, 51, 51);
+  width: 100%;
+  opacity:0.4;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.register{
+
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    background-color: rgb(223, 231, 229);
+    padding: 1rem;
+    height:auto;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0vh;
+    max-width: 100%;
+}
+.sidebar{
+    background: rgb(10, 6, 26);
+    color: white;
+    height: 104vh;
+    z-index: 1;
+    margin-left: -8px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+.menu{
+    font-size: 18px;
+    line-height: 0;
+}
+.search{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;  
+}
+.search input{
+    border: none;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgb(238,238,238);
+    padding: 5px 10px;
+}
+.link{
+    display: flex;
+    color:white;
+    gap:10px;
+    padding:5px 10px;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+a{
+    text-decoration: none;
+}
+.link:hover{
+    border-left: 4px solid white;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background: rgb(45,51,89);
+}
+.maincontainer{
+    display: flex;
+    
+}
+main{
+    padding: 0.5px;
+    margin: 10px 0;
+    
+   
+    
+}
+.navis{
+    display:flex;
+}
+.nav{
+    background-color: blanchedalmond;
+    width: 200%;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    color: black;
+    
+}
+.overall{
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+.navbar{
+    background-color: aquamarine;
+    margin-top: -7px;
+    padding: 10px;
+    box-shadow: 1px 0px 6px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contWrapper{
+    display: flex;
+}
+.extOverall{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.profilepic{
+    position: relative;
+    padding: 15px;
+    display: block;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: -25px;
+    block-size: 100px;
+    border-radius: 50%;
+}
+
+.extension{
+    background-color: blueviolet;
+    float: left;
+    position: relative;
+    padding: 26px;
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: 100px;
+    margin-top: 16px;
+    height: 70px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+;
+    
+}
